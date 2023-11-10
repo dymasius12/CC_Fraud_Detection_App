@@ -10,7 +10,7 @@ xgboost_model = joblib.load('xgboost_smote.joblib')
 knn_model = joblib.load('knn_smote.joblib')
 dt_model = joblib.load('decision_tree_smote.joblib')
 lg_model = joblib.load('logistic_regression_smote.joblib')
-mlp_model = joblib.load('mlp_classifier.joblib')
+mlp_model = joblib.load('mlp_classifier_smote.joblib')
 best_rfc_model = joblib.load('random_forest_best_smote.joblib')
 
 # Load the ANN model
