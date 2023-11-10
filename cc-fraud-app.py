@@ -299,6 +299,7 @@ with st.expander("SUMMARY"):
     st.image('knn_result.png', width=600)
     st.image('lg_result.png', width=600)
     st.image('dt_result.png', width=600)
+    st.image('mlp_result.png', width=600)
 
     st.write("ROC/AUC Curve")
     st.image('ROC.png', width=600)
