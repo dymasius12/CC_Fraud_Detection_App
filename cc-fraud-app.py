@@ -330,6 +330,17 @@ with st.expander("STEP 5: PARAMETER TUNING"):
     st.image('best_rfc_com.png', width=600)
     #st.write("LOGISTIC REGRESSION PARAMETER TUNING")
 
+with st.expander("CONCLUSION"):
+    st.write("""
+Balanced Performance: The Random Forest model with SMOTE preprocessing exhibits a high level of accuracy (99.9544%) and precision (88.5714%), which is essential in fraud detection to minimize the number of false positives—that is, legitimate transactions that are incorrectly flagged as fraudulent.
+
+High AUC Score: With an AUC score of 0.97, the Random Forest model demonstrates a strong ability to distinguish between fraudulent and non-fraudulent transactions. A high AUC score indicates that the model has a high rate of true positive predictions relative to the false positive rate, which is critical in fraud detection scenarios where the cost of false negatives is high.
+
+Generalization Capability: Random Forest is less likely to overfit than decision trees because it takes the average of multiple decision trees trained on subsets of the data, improving the model's generalization to new, unseen data.
+
+Operational Efficiency: Due to its relatively high precision, the Random Forest model will likely result in fewer false alarms compared to models with lower precision, reducing the operational burden of manual fraud investigation. This operational efficiency is important for maintaining customer trust and satisfaction.
+""")
+    
 with st.expander("Credits & Acknowledgements:"):
     st.write("""
 The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection.
