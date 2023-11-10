@@ -251,9 +251,9 @@ with st.expander("STEP 3: Multi Layer Perceptron Model Prediction"):
         st.success("YOU ARE A GOOD PERSON! REAL!")  # Displays the message in green
 
     st.write("STEP 4 MODEL INFO: MLP Confusion Matrix")
-    st.image('mlp.png', width=600)
+    st.image('mlp.jpeg', width=600)
     st.write("Accuracy, Precision, Recall, F1 Score, TPR, FPR, TNR, FNR")
-    st.image('mlp_result.png', width=600)
+    st.image('mlp_result.jpeg', width=600)
 
 with st.expander("SUMMARY"):
     st.write("MODEL SUMMARY")
