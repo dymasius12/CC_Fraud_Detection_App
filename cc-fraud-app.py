@@ -300,7 +300,7 @@ with st.expander("SUMMARY"):
     st.image('knn_result.png', width=600)
     st.image('lg_result.png', width=600)
     st.image('dt_result.png', width=600)
-    st.image('mlp_result.png', width=600)
+    st.image('mlp_result.jpeg', width=600)
     st.write("ACCURACY = (True Positve + True Negative)/TOTAL")
     st.write("RECALL = (True Positve)/True Positive + False NEGATIVE")
     st.write("RECALL = The proportion of ACTUAL positives that were CORRECTLY identified by the model")
